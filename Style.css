@@ -1,0 +1,147 @@
+body{
+   margin: 0;
+   margin-left: -40px;
+   font-family: 'Arial Narrow', Arial, sans-serif;
+   background-color: rgb(255, 255, 255);
+   overflow: scroll;
+   overflow-x: hidden;
+   margin-top: 0%;
+}
+
+input {
+ 
+    display: block;
+    width: 85%;
+    padding: 70 10px;
+    margin-left: 210px;
+    border-style: double;
+    border-radius: 10px;
+    float: left;
+   position: absolute;
+   margin-top: 20px;
+}
+
+input,
+input::placeholder {
+    font: 15px/2 sans-serif;
+    
+}
+
+#list{
+    position: static;
+    font-size: 15px;
+   font-style: oblique;
+  
+}
+
+li{
+    list-style:none;
+   
+  }
+
+
+
+  #border{
+
+    position: fixed;
+    height: 100%;
+    padding: 10px;
+    border: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: outset;
+   border-left: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 13px;
+    background: rgb(9,111,121);
+background: radial-gradient(circle, rgb(21, 152, 164) 41%, rgb(8, 190, 226) 89%, rgb(13, 10, 60) 100%);
+overflow: scroll;
+margin-top: 0;
+        
+    
+}
+
+a{
+   text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 300px;
+   padding: 10px;
+   font-style: normal;
+   color: rgb(4, 59, 97);
+   
+    }
+
+
+.container{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 10px;
+   
+    
+}
+
+
+.container .brand-name{
+    margin-left: 10px;
+    font-weight: 700;
+    
+}
+
+ul ul li a{
+    margin-left: 10px;
+    padding: 3px;
+    color: black;
+   
+}
+
+.page .im{
+   float: left;
+   
+}
+
+a:hover {
+    background-color: rgb(222, 222, 210);
+    border-radius: 50px;
+ transition: 0.5s;
+ text-transform: uppercase;
+}
+
+#border::-webkit-scrollbar {
+    display: none;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+#cimage .im{
+ position: relative;
+ margin-top: 0;
+ top: 0;
+}
+#cimage .text{
+    position: absolute;
+    top: 150px;
+    left: 10px;
+}
+
+.percent{
+    background-color: none;
+    color: rgb(211, 198, 198);
+}
+
+#bt:hover{
+    background-color: rgb(222, 222, 210);
+    border-radius: 50px;
+ font-size: large;
+ font-weight: 500;
+}
+#bt{
+  background-color: aliceblue;
+  color: black;
+  font-size: medium;
+  font-weight: 400;
+}
